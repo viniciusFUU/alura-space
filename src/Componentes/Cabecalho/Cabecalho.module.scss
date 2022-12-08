@@ -1,0 +1,36 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 24px;
+}
+
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    width: 33%;
+    position: relative;
+    z-index: 0;
+    border: 2px solid rgb(255, 176, 189);
+    border-radius: 10px;
+}
+
+.cabecalho__input{
+    width: 80%;
+    height: 30px;
+    color: #d9d9d9;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+}
+
+.cabecalho__icone{
+    display: flex;
+}
+
+img{
+    cursor: pointer;
+}
